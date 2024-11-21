@@ -1,16 +1,10 @@
-import ListGroup from "./assets/components/ListGroup";
-import "bootstrap/dist/css/bootstrap.min.css";
-
-const handleSelect = (item: string) => {
-  console.log(item);
-};
+import Alert from "./assets/components/Alert";
 
 function App() {
-  let Items = ["komi", "Mahima", "vedi", "Shubu", "Roy"];
   return (
-    <div>
-      <ListGroup items={Items} heading="clients" onSelectItem={handleSelect} />
-    </div>
+    <Alert>
+      hellow word<span>Hi</span>
+    </Alert>
   );
 }
 export default App;
