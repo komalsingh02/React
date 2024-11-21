@@ -1,10 +1,5 @@
-import Alert from "./assets/components/Alert";
-
+import Button from "./assets/components/button";
 function App() {
-  return (
-    <Alert>
-      hellow word<span>Hi</span>
-    </Alert>
-  );
+  return <Button>"Hi"</Button>;
 }
 export default App;
